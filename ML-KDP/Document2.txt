@@ -1,0 +1,79 @@
+ML Assignment 1
+
+1. Import Libraries/Dataset 
+	1. Download the dataset 
+	2. Import the required libraries 
+
+2. Data Visualization and Exploration [2 M] 
+	1. Print 2 rows for sanity check to identify all the features present in the dataset and if the target matches with them. 
+	2. Comment on class imbalance with appropriate visualization method. 
+	3. Provide appropriate visualizations to get an insight about the dataset. 
+	4. Do the correlational analysis on the dataset. Provide a visualization for the same. Will this correlational analysis have effect on feature selection that you will perform in the next step? Justify your answer. Answer without justification will not be awarded marks 
+
+3. Data Pre-processing and cleaning [2M] 
+	1. Do the appropriate pre-processing of the data like identifying NULL or Missing Values if any, handling of outliers if present in the dataset, skewed data etc. Mention the pre-processing steps performed in the markdown cell. 
+	2. Apply appropriate feature engineering techniques for them. Apply the feature transformation techniques like Standardization, Normalization, etc. You are free to apply the appropriate transformations depending upon the structure and the complexity of your dataset. Provide proper justification. Techniques used without justification will not be awarded marks
+
+
+4. Model Building [3M] 
+	1. Split the dataset into training and test sets. Justify your choice of split. You may experiment with different split to get the final split. Answer without justification will not be awarded marks. [1M] 
+	2. Build Model Development using Logistic Regression with penalty= l1 and l2, C= [1,0.5,0.1,0.01,0.003] . Identify the best parameter and justify your answer. [2 M] 
+
+5. Performance Evaluation [3 M] 
+	1. Do the prediction for the test data and display the results for the inference. Calculate all the evaluation metrics and choose best for your model. Justify your answer. Answer without justification will not be awarded marks. [2M] 
+	2. Comment on under fitting/overfitting/just right model. Justify your comment. Answer without justification will not be awarded marks. [1M
+
+
+
+Dead Students,
+
+1. Wherever model building using MLE is mentioned, only theoretical explanation is expected.
+
+2. Correction in the problem statement 1 "Can  L1 (Absolute error) and L2(LSE)  be used as loss functions for GD for logistic regression?  justify your answer"  instead of   Justify use of L1 or L2 loss functions for GD. 
+
+ 
+
+Due to these minor corrections in problem statements we are extending deadline by 4 days. Note that this is the hard deadline.
+
+
+
+--------
+
+DVI Assignment 2
+data.groupby('GICS Sector').size()
+
+
+Box plots:
+
+This is the type of plot that can be used to obtain more of the statistical details about the data. The straight lines at the maximum and minimum are also called as whiskers.
+
+
+1. Perform Univariate analysis on Price Change
+Pre-attentive attributes:
+Gestalt Principles:
+
+2. Perform a visual analysis to detect outliers in Current Price and Net Income 
+https://www.analyticsvidhya.com/blog/2021/05/feature-engineering-how-to-detect-and-remove-outliers-with-python-code/
+Pre-attentive attributes:
+Gestalt Principles:
+
+https://www.freecodecamp.org/news/how-to-detect-outliers-in-machine-learning/
+3. dentify the correlation between all numerical variables.
+https://towardsdatascience.com/correlation-is-simple-with-seaborn-and-pandas-28c28e92701e
+Pre-attentive attributes:
+Gestalt Principles:
+
+
+4. Show ,how average cash ratio varies across economic sectors.
+Pre-attentive attributes:
+Gestalt Principles:
+
+5. Identify the % distribution of companies as per the GICS eonomic sectors. 
+Pre-attentive attributes:
+Gestalt Principles:
+
+
+Current Price	
+Price Change	Volatility	ROE	Cash Ratio	Net Cash Flow	Net Income	Earnings Per Share	Estimated Shares Outstanding	P/E Ratio	P/B Ratio
+
+

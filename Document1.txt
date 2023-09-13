@@ -1,0 +1,9 @@
+What does Eng.QA do
+
+Eng.QA has both TW and AQA (Java/C##) ICs
+
+1. Pick few stable products with a lot of E2Es
+2. Rewrite as much E2Es as possible in Gherkin language (TW)
+3. Run/Execute them in Behave/aureacentral - move E2E to TW->(Execution->AutomationPending->In Automation->Coding->PassAutomation->)DONE
+Per week you will be expected to (re)write X number of E2Es
+
