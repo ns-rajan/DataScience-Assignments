@@ -1,2 +1,0 @@
-Min average waiting time: 17
-Dosas served in the following order: Customer 0, Customer 1, Customer 2, 

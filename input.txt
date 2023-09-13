@@ -1,3 +1,0 @@
-100
-public_1.csv
-Brazil
